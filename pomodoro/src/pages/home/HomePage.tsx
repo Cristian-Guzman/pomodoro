@@ -1,7 +1,10 @@
-import React from 'react'
+import PomodoroTimer from '@components/PomodoroTimer'
 
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+        <>
+            <div>HomePage</div>
+            <PomodoroTimer/>
+        </>
   )
 }
